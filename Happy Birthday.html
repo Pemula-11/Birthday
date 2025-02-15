@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <Style>
+        .container {
+    width: 500px;
+    height: 300px;
+    padding:10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-sizing: border-box;
+    background-color: #00FFFF;
+}
+
+body{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    background-image: url('img/ultah.jpg');
+    height: 100vh;
+    animation: float 3s ease-in-out;
+   /*  display: grid;
+    place-items: center;
+    height: 100vh;
+    margin: 0; */
+}
+
+
+
+.animasi {
+    font-size: 2.5rem;
+    font-family: 'Pacifico', cursive;
+    /* border: 1px solid; */
+}
+
+.fall {
+    animation: fall 3s ease-in-out infinite;
+}
+
+.fly {
+    animation: fly 3s ease-in-out infinite;
+}
+
+@keyframes fall{
+    0% {
+        transform: translateY(-20px);
+    }
+    100% {
+        transform: translateY(20px);
+    }
+}
+
+@keyframes fly {
+    0% {
+        transform: translateY(20px);
+    }
+    100% {
+        transform: translateY(-20px);
+    }
+}
+    </Style>
+</head>
+<body>
+    <div class="animasi fall">
+        <p>Happyyy Birthdayyy</p>
+    </div>
+    <Div class="container" >
+        <p>Happy Birthdayyy!!! &#127881; &#127881; &#127881;</p>
+        <p>Hopefully, you grow full of joy. Don't be stressed about life—just enjoy it and realize that every obstacle helps you become stronger and greater. There is always happiness after every obstacle you overcome</p>
+        <p>Keep reaching for your goals, and don't give up on achieving them. Rely on God, and let Him guide you through your life.</p>
+        <p>Just be yourself and continue growing into a greater person than you are today&#10084;&#65039;&#10084;&#65039;&#10084;&#65039;</p>
+    </Div>
+    <div class="animasi fly">
+        <p>Happyyy Birthdayyy</p>
+    </div>
+    
+</body>
+</html>
